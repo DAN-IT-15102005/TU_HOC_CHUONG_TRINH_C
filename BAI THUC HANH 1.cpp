@@ -1,12 +1,17 @@
-#include <iostream>
+#include  <iostream>
 using namespace std;
 int main () {
-	// de bai viet chuong trinh C++ 
-	// toi moi 10 tuoi 
-	// toi con qua tre de choi game
-
-	cout << " toi moi 10 tuoi " << endl;
-	cout << " toi con qua tre de choi game "; 	
+	/* tìm tông hiêu tích thuong cua hai sô nguyên và in ra kêt qua*/
+    int a= 500, b= 400 ;
+	int tong = a + b;
+	int hieu = a - b;
+	int tich = a * b;
+ float thuong = (float)a/b;
+ 
+ cout << tong << " " << hieu << " " << tich << " " << thuong << endl;
+ 
 	
 	return 0;
 }
+
+

@@ -1,15 +1,18 @@
-#include <iostream>
-using namespace std;
+#include <iostream> 
+
+using namespace std ;
+//  de bai nhap van toc ban dau , gia toc, thoi gian, tu ban phim và in ra kq tính van toc cuoi cung
+// VTCC = vtbd + at
 int main () {
-	/* khai bao 2 bien nguyen, mot bien thuc và gan cac gia tri
-	10, 15, 12.6 cho chung. Sau do in ket qua ra man hinh. */
 	
-	
-	int a, b;
-	float c;
-	a= 10, b=15, c=12.6 ;
-cout << a << " " << b << " " << c << endl;
-	
+   	 int a, t,  vtbd;
+	 cout << " hay nhap vao gia toc   ";      cin >> a ;
+	 cout << " hay nhap vao thoi gian ";      cin >> t ;
+	 cout << " hay nhap vao vtbd      ";      cin >> vtbd ;
+	 
+	 int VTCC = (vtbd + ( a * t) );
+	 cout << " van toc cuoi cung là :" << VTCC << endl;
+	 
 	
 	return 0;
 }

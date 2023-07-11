@@ -1,17 +1,16 @@
 #include <iostream>
 using namespace std;
 int main () {
-	 
-	 /* SU DUNG LENH CIN DE DOC DU LIEU NHAP TU BAN PHIM, SAU DO SU DUNG LENH COUT DE IN KQ RA */
-	 
-  char name [ 10 ] ;
-  cout << " nhap ten cua ban :" <<endl;
-  cin >> name ;
-  cout << " han hanh chao ban :"; 
-  cout << name << endl;
-  
-	 
-	 
+	
+	int x = 10,  y = 5;
+	cout << " ket qua tra ve : " << endl;
+	cout << " Gtri x\t " << " " << " Gtri y\t " << " " << " Bieu thuc\t " << " " << " ket qua " <<endl;
+	cout << x <<"  |\t"<< y <<" |\t"<<"x = y + 3\t"<<" \t|"<<"x ="<< y + 3 <<" \n";
+	cout << x <<"  |\t"<< y <<" |\t"<<"x = y - 2\t"<<" \t|"<<"x ="<< y - 2 <<" \n";
+	cout << x <<"  |\t"<< y <<" |\t"<<"x = y * 5\t"<<" \t|"<<"x ="<< y * 5 <<" \n";
+	cout << x <<"  |\t"<< y <<" |\t"<<"x = x / y\t"<<" \t|"<<"x ="<< (float)(x/y)<< " \n";
+	cout << x << " |\t"<< y <<" |\t"<<"x = x % y\t"<<" \t|"<<"x ="<< x % y << " \n";
+	
 	
 	return 0;
 }

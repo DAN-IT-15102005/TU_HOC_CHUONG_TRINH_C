@@ -1,16 +1,26 @@
 #include <iostream>
 using namespace std;
 int main () {
-	/* in ra man hinh chuan 1 so nguyen, 1 so thuc va 1 ki tu */
 	
-	int a;
-	float b;
-	char c ;
-
-	cout << " hay viet 1 so nguyen " << endl; cin >> a;
-	cout << " hay viet mot so thuc " << endl; cin >> b;
-	cout << " hay viet mot vai ki tu " << endl; cin >> c;
+	float a, b, c, d, e;
+	cout << " ========== DIEM KIEM TRA ==========" << endl;
+	cout << " nhap diem kt 1 : "; cin >> a; cout << endl;
+	cout << " nhap diem kt 2 : "; cin >> b; cout << endl;
+	cout << " nhap diem kt 3 : "; cin >> c; cout << endl;
 	
-		
+	float TDKT = a + b + c; cout << " tong diem kt la :" << TDKT << endl;
+	
+	cout << " ========== DIEM THI GIUA KI ==========" << endl;
+	cout << " diem thi giua ki : "; cin >> d; cout << endl;
+	
+	cout << " ========== DIEM THI CUOI KI ==========" << endl;
+	cout << " diem thi cuoi ki : "; cin >> e; cout << endl << endl ;
+	
+	float TD = TDKT + ( d + e ); cout << " tong diem la :" << TD << endl;
+	
+	
 	return 0;
+	
+	
+
 }
